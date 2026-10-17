@@ -1,5 +1,5 @@
 context:
-  version: "0.12.0"
+  version: "0.12.1"
 
 package:
   name: gitlogue
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/unhappychoice/gitlogue/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 57925fead2e74773e45cd268d4c4905c8ef4856b642141411f58a3e36bee76c9
+  sha256: 1d271302883be633d7d8dfdb7540d2382f2ab0742c9772e43a585e769230ea29
 
 build:
   number: 0
