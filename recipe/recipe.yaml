@@ -34,7 +34,7 @@ requirements:
     - cmake
     - make
     - nushell
-    - pkg-config
+    - pkgconf
   host:
     - if: unix
       then: libgit2
