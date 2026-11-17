@@ -37,7 +37,9 @@ requirements:
     - pkgconf
   host:
     - if: unix
-      then: libgit2
+      then:
+        - libgit2
+        - zlib
 
 tests:
   - script:
